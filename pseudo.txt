@@ -1,0 +1,4 @@
+on websiteload pull curated set of comics from gocomics
+set up comics on site
+allow them to choose different day
+and different comics

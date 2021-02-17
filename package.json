@@ -1,0 +1,24 @@
+{
+    "name": "comic-book",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jaronrayj/comic-book.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jaronrayj/comic-book/issues"
+    },
+    "homepage": "https://github.com/jaronrayj/comic-book#readme",
+    "dependencies": {
+        "puppeteer": "^7.1.0"
+    }
+}
