@@ -8,7 +8,11 @@ const puppeteer = require('puppeteer');
         const comicData = document.getElementsByClassName('gc-blended-link gc-blended-link--primary col-12 col-sm-6 col-lg-4');
         const comicLinksArray = [];
         comicData.forEach(comic => {
-            comicLinksArray.push(comic.getAttribute('href'));
+            const comicObj = {
+                href:comic.getAttribute('href'),
+                title: comic.children[0].children[1].children[0].innerText
+            }
+            comicLinksArray.push(comicObj);
         });
         return comicLinksArray;
         return Promise.resolve()
